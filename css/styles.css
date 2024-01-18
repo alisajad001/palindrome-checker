@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #46acc2;
+}
+
+.container {
+  width: calc(100vw - 20px);
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.container h1 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #000505;
+}
+
+.container .palindrome-definition {
+  color: #565656;
+  font-size: 17px;
+  margin-top: 5px;
+  line-height: 1.7;
+  word-spacing: 1.5;
+}
+
+.container #text-input {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 14px;
+  font-size: 1.2rem;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+}
+
+.container #check-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 14px;
+  font-size: 1.2rem;
+  border: 0;
+  background-color: #46acc2;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container #check-btn:hover {
+  opacity: 0.8;
+}
+
+.container #result {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #000505;
+  display: none;
+}
